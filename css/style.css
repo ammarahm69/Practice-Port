@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+nav ul li a {
+    color: #ffffff9a !important;
+
+}
+
+ul li {
+    padding-left: 2em;
+    font-size: 17px;
+}
+
+#logo {
+    font-family: 'ubuntu';
+    font-size: 40px;
+    font-weight: 700;
+    color:#1f9ce4;
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    background-color: #1c1a27;
+}
+
+.self {
+    position: relative;
+    top: 5rem;
+    font-family: 'ubuntu';
+    color: #1f9ce4;
+}
+
+button.hire {
+    margin-top: 2em;
+    color: #1f9ce4;
+    padding: 14px 34px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: #573CFA;
+   
+}
+
+.hire:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1f9ce4;
+
+}
+
+.folo-img {
+    /* margin-left: 4rem; */
+    width: 100%;
+    border-radius: 10%;
+    height: 500px;
+    background: url(../img/Ammar.jpeg) no-repeat center center / cover;
+}
+/* Cards Section */
+.main-cards{
+    width: 100%;
+    height: auto;
+    /* background-color: #573CFA; */
+    background-color: #1c1a27;
+
+}
+.card-body{
+    background-color: #1f9ce4 !important;
+}
+.ee{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 700px;
+    background-color: #1c1a27;
+    position: relative;
+    color: #ffffff9a;
+    /* top: 5rem; */
+}
+.about{
+    position: relative;
+    top: 5rem;
+}
+.main-head .para{
+    font-size: 15px;
+}
+.icons i{
+    margin: 23px;
+}
+
+.icons a{
+    font-family: ' sans-serif';
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff9a;
+    margin-left: 1rem;
+}
+.icons a:hover{
+    color:#1f9ce4;
+}
