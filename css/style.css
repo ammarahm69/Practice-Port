@@ -107,3 +107,19 @@ footer{
 .icons a:hover{
     color:#1f9ce4;
 }
+@media screen and (min-width:300px) and (max-width:576px) {
+    .content h1{
+        font-size: 25px;
+    }
+    .folo-img {
+        width: 60%;
+        height: 340px;
+        margin-top: 0.6rem;
+        margin-inline: auto;
+    }
+    .card {
+        width: 85%;
+        /* display: flex; */
+        margin-left: 3rem;
+    }
+}
